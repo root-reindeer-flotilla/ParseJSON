@@ -1,3 +1,5 @@
+# Minified by python-minifier.com because why not.
+
 L='utf-8'
 import json,argparse as M
 from datetime import datetime as N
