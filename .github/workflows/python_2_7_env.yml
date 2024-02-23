@@ -1,5 +1,0 @@
-name: python_2_7_env
-channels:
-  - defaults
-dependencies:
-  - python=2.7.18
