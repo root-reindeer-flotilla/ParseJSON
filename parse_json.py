@@ -25,12 +25,12 @@ parser.add_argument(
 )
 
 # If the unknown option is enabled, only include messages from unknown users, defined as users not in the user_aliases dictionary. Useless if user_aliases is commented out and empty.
-#parser.add_argument(
+# parser.add_argument(
 #    "-unk",
 #    "--unknown",
 #    action="store_true",
 #    help="Include only messages from unknown users",
-#)
+# )
 
 # If the user option is enabled, only include messages from the specified user
 # parser.add_argument("-u", "--user", type=str, help="Filter messages by a specific user")
@@ -65,6 +65,7 @@ def output_data(data_str, output_file):
             f.write(data_str + "\n")
     else:
         print(data_str)
+
 
 with open(args.input_file, "r", encoding="utf-8") as file:
     for line in file:
